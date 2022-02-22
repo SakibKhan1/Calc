@@ -11,9 +11,11 @@ int main()
 {
     int num;
     int total = 0;
+    //num is input
 
     char plus = '+';
     char minus = '-';
+    //char to take in addition and subtraction operators.
 
     while(cin >> num and cin >> minus)
     {
