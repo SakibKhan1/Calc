@@ -23,7 +23,7 @@ int main()
             total -= num;
         } else
         {
-            total - num;
+            total = num;
         }
         cin >> sign;
     }
