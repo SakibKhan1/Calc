@@ -11,19 +11,24 @@ int main()
 {
     int num;
     int total = 0;
-    //num is input
 
-    char plus = '+';
-    char minus = '-';
-    //char to take in addition and subtraction operators.
-
-    while(cin >> num and cin >> minus)
+    char sign;
+    //char for +/- operators
+    while(cin >> num)
     {
-        total = total + num;
-    if(minus == '-')
-    {
-        total = total - num;
-    }
+        if(sign == '+')
+        {
+            total += num;
+        } else if(sign == '-'){
+            total -= num;
+        } else
+        {
+            total - num;
+        }
+        cin >> sign;
     }
     cout << total << endl;
+    //prints result
+
+    return 0;
 }
